@@ -3,7 +3,7 @@ Repository for the News Page, which contains the elements, actual code, and such
 
 <li> Project In Progress </li>
 
-Featured | Latest Story (Sisante)
+<h3><li></li>Featured | Latest Story (Sisante)</h3></li>
 
 Grid (Denise)
 
