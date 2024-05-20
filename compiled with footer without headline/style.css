@@ -10,6 +10,7 @@ html, body {
     overflow: hidden; /* Disable default scrolling */
 }
 
+/* NAVIGATION */
 .header{
     position:fixed;
     top:0;
@@ -43,6 +44,7 @@ input{
     visibility: hidden;
     -webkit-appearance: none;
 }
+
 ion-icon{
     width: 50px;
     height: 100px;
@@ -64,24 +66,24 @@ ion-icon{
 }
 
 .toggle .top_line{
-    top:12%; 
+    top:15%; 
     left: 14px; 
     transform: translate (-50%, -50%);
-    height: 5px;
+    height: 4px;
 }
 
 .toggle .middle_line{
-    top:37%;  
+    top:40%;  
     left: 50%;  
     transform: translate( -50%, -50%);
-    height: 5px;
+    height: 4px;
 }
 
 .toggle .bottom_line{
-    top: 57%;  
+    top: 60%;  
     left: 14px;  
     transform: translate (-50%, -50%);
-    height: 5px;
+    height: 4px;
 }
 
 input:checked ~ .toggle .top_line{
@@ -112,7 +114,7 @@ input:checked ~ .slide{
 }
 .slide{
     margin-top: 66px;
-      height: 280px;
+      height: 320px;
       width: 350px;
       position: absolute;
       background-color: rgb(255, 255, 255);
@@ -144,11 +146,19 @@ input:checked ~ .slide{
     text-shadow: 0 0 10px rgba(0,0,0,.3);
 }
 
+li {
+    text-transform: capitalize;
+}
+
+/* GRID */
+.grid {
+    min-height: 100vh;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 11% 3% 3%;
-    height: 300vh; /* Increase height to enable scrolling */
 }
 
 .column {
@@ -197,14 +207,20 @@ input:checked ~ .slide{
 }
 
 .content h1 {
-    font-size: 45px;
-    color: #298cc5;
+    padding: 0.5vh .7vw;
+    font-size:2.3vw;
+    color: #2985d6;
     margin-bottom: 10px;
+    text-align:center;
+    font-weight: bold;
+    line-height: 0.98;
+    width: auto;
+    height: auto;
 }
 
 .content p {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 1.8vw;
+    font-weight: normal;
     color: #fff;
 }
 
@@ -237,4 +253,14 @@ input:checked ~ .slide{
         flex: 100%;
         max-width: 100%;
     }
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgb(3, 24, 145) , rgb(0, 0, 0)); /* Adjust as needed */
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 315px;
 }
