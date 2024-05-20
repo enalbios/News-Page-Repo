@@ -119,7 +119,7 @@ input:checked ~ .slide{
 }
 .slide{
     margin-top: 66px;
-      height: 280px;
+      height: 270px;
       width: 350px;
       position: absolute;
       background-color: rgb(255, 255, 255);
@@ -149,6 +149,10 @@ input:checked ~ .slide{
     font-weight: 100;
     font-size: 27px;
     text-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+li {
+    text-transform: capitalize;
 }
 
 /* GRID */
@@ -248,4 +252,8 @@ input:checked ~ .slide{
         flex: 100%;
         max-width: 100%;
     }
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgb(3, 24, 145) , rgb(0, 0, 0)); /* Adjust as needed */
 }
