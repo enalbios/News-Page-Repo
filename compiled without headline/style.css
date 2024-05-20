@@ -48,6 +48,8 @@ input{
     visibility: hidden;
     -webkit-appearance: none;
 }
+
+/* NAVIGATION */
 ion-icon {
     width: 50px;
     height: 100px;
@@ -69,24 +71,24 @@ ion-icon {
 }
 
 .toggle .top_line{
-    top:12%; 
+    top:15%; 
     left: 14px; 
     transform: translate (-50%, -50%);
-    height: 5px;
+    height: 4px;
 }
 
 .toggle .middle_line{
-    top:37%;  
+    top:40%;  
     left: 50%;  
     transform: translate( -50%, -50%);
-    height: 5px;
+    height: 4px;
 }
 
 .toggle .bottom_line{
-    top: 57%;  
+    top: 60%;  
     left: 14px;  
     transform: translate (-50%, -50%);
-    height: 5px;
+    height: 4px;
 }
 
 input:checked ~ .toggle .top_line{
@@ -149,6 +151,7 @@ input:checked ~ .slide{
     text-shadow: 0 0 10px rgba(0,0,0,.3);
 }
 
+/* GRID */
 .row {
     display: flex;
     flex-wrap: wrap;
