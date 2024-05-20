@@ -6,7 +6,6 @@
 }
 
 html, body {
-    height: 100%;
     overflow: hidden; /* Disable default scrolling */
 }
 
@@ -257,7 +256,8 @@ li {
 
 .footer {
     background-image: linear-gradient(to right, rgb(3, 24, 145) , rgb(0, 0, 0)); /* Adjust as needed */
-    margin-top: auto;
+    position: sticky;
+    padding-top: 100%;
     bottom: 0;
     left: 0;
     right: 0;
