@@ -6,8 +6,13 @@
 }
 
 html, body {
+    height: 100%;
     overflow: hidden; /* Disable default scrolling */
-    max-height: 200vh;
+    background-image: url('Background.png'); /* Path to your background image */
+    background-size: cover; /* Ensure the background image covers the entire background */
+    background-position: center; /* Center the background image */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 /* NAVIGATION */
@@ -254,13 +259,10 @@ max-width: 100%;
 
 .footer {
     background-image: linear-gradient(to right, rgb(3, 24, 145) , rgb(0, 0, 0)); /* Adjust as needed */
+    position:fixed;
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
     height: 315px;
-}
-
-#footer {
-    position: fixed;
 }
